@@ -1,9 +1,42 @@
 .recipe{
   width: 600px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .recipes{
   display: flex;
   flex-wrap: wrap;
-  width:1200px;
+  justify-content: center;
+}
+
+.search-form{
+  display: flex;
+  justify-content: center;
+  padding:30px;
+}
+
+.search-form input{
+  padding:10px 30px;
+  border:none;
+  border-bottom:1px solid black;
+  outline:none;
+  margin:0 15px;
+  text-align:center;
+}
+
+.search-form input:focus{
+  border-bottom:1px solid black;
+  outline:none;
+}
+
+.search-form button{
+  padding:0 30px;
+  border:1px solid black;
+}
+
+ol{
+  list-style-type: circle;
 }
