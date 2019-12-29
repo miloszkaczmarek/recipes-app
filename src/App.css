@@ -40,3 +40,10 @@
 ol{
   list-style-type: circle;
 }
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+}
