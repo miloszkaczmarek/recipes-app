@@ -12,7 +12,7 @@ function Nav(){
             <Link to="/">
                 <h3>Logo</h3>
             </Link>
-            <ul>
+            <ul className="nav-links">
                 <Link style={navStyle} to="/about">
                     <li>About</li>
                 </Link>
